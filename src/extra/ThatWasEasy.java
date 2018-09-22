@@ -17,7 +17,7 @@ public class ThatWasEasy extends MouseAdapter {
 
 	public void mouseClicked(MouseEvent arg0) {
 		/* Use the speak method to make the button work. */
-		speak("YAY ITS TIME TO LEAVe SAYS ADRIANA I WANT FOOD");
+		speak("Hi");
 	}
 
 	private void speak(String words) {
