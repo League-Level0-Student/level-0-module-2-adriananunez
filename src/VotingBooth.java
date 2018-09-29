@@ -4,7 +4,7 @@ public class VotingBooth {
 public static void main(String[] args) {
 	
 	
-	String age=JOptionPane.showInputDialog("What is your age in years ???");
+	String age=JOptionPane.showInputDialog("How old are you in years");
 	int age2=Integer.parseInt(age);
 	
 	

@@ -22,7 +22,7 @@ public class ThatWasEasy extends MouseAdapter {
 
 	private void speak(String words) {
 		try {
-			Runtime.getRuntime().exec("say " + words).waitFor();
+			Runtime.getRuntime().exec("say" + words).waitFor();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
